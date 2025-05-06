@@ -1,25 +1,15 @@
 public class jaimecr {
     public static void main(String[] args) {
-        int x=1;
-        System.out.println(x);
-        x=2;
-        System.out.println(x);
-        x=3;
-        System.out.println(x);
-        x=4;
-        System.out.println(x);
-        x=5;
-        System.out.println(x);
-        x=6;
-        System.out.println(x);
-        x=7;
-        System.out.println(x);
-        x=8;
-        System.out.println(x);
-        x=9;
-        System.out.println(x);
-        x=10;
-        System.out.println(x);
+        int i = 1;
+        while (i <= 10) {
+            if (i % 2 == 0) {
+                System.out.println("El número " + i + " es par");
+            } else {
+                System.out.println("El número " + i + " es impar");
+            }
+            i = i + 1;
+        }
+
 
     }
 }
