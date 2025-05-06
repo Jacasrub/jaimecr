@@ -1,9 +1,9 @@
 public class jaimecr {
     public static void main(String[] args) {
-        int i = 1;
-        while (i <= 10) {
-            extracted(i);
-            i = i + 1;
+        int numero = 1;
+        while (numero <= 10) {
+            extracted(numero);
+            numero = numero + 1;
         }
 
 
