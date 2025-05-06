@@ -11,9 +11,9 @@ public class jaimecr {
 
     private static void extracted(int i) {
         if (i % 2 == 0) {
-            System.out.println( i + "hola");
+            System.out.println( i + "adios");
         } else {
-            System.out.println(i + "adios");
+            System.out.println(i + " hola");
         }
     }
 }
