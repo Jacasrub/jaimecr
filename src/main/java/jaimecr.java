@@ -11,9 +11,9 @@ public class jaimecr {
 
     private static void extracted(int i) {
         if (i % 2 == 0) {
-            System.out.println( i + " es un numero par");
+            System.out.println( i + "hola");
         } else {
-            System.out.println(i + " es un numero impar");
+            System.out.println(i + "adios");
         }
     }
 }
